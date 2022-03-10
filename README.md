@@ -30,7 +30,7 @@ order url :  http://localhost:8000/order/
 payment url :  http://localhost:8000/pmt/
 
 set manual in main module: 
-<!-- const server = gateway({
+const server = gateway({
     routes: [
         {
             prefix: '/order',
@@ -43,4 +43,4 @@ set manual in main module:
             hooks: {}
         },
     ]
-}) -->
+})
